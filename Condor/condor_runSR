@@ -1,0 +1,9 @@
+#!/bin/bash
+# export PATH=/home/rm4216/Desktop/ImperialCollege/Python/anaconda3.6/bin:$PATH
+export PATH=/vol/bitbucket/rm4216/Desktop/ImperialCollege/Python/anaconda36/bin:$PATH
+# $1 is seed number, $2 is objective name, $3 is optimizer name, $4 is loss name, $5 is projection dimensions number, $6
+# is dimension of ambient space, $7 is number of iterations, $8 is the part
+cd /homes/rm4216/Desktop/ImperialCollege/Python/Github_manifold_bo/BayesOpt/
+pwd
+# which pip
+python tfbo/SRbayesian_optimization.py $1 $2 $3 $4 $5 $6 $7 $8

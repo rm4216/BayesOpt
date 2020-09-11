@@ -1,0 +1,2 @@
+#!/bin/bash
+matlab -nodisplay -nosplash -nodesktop -r "run('/homes/rm4216/Desktop/ImperialCollege/Python/Github_manifold_bo/BayesOpt/Baselines/rembo/startup.m');testElectronSphere6np_Parallel($1,$2,$3);exit"

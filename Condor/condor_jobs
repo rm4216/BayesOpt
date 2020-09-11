@@ -1,0 +1,366 @@
+Universe = vanilla
+Executable = condor_run
+Error  = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_error.txt
+Log    = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_log.txt
+Output = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_out.txt
+requirements = (UtsnameSysname == "Linux") && (OpSysName == "Ubuntu") && (OpSysMajorVer == 18)
+Arguments = --seed=0 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=RosenbrockLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesLinear10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_ei --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesNN10D --opt=qgp_bo --loss=lcb --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=3 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=6 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=8 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=12 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=16 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ProductSinesNN10D --opt=qgp_bo --loss=Neg_pi --proj_dim=10 --input_dim=60 --maxiter=300
+Queue

@@ -1,0 +1,326 @@
+Universe = vanilla
+Executable = condor_run
+Error  = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_error.txt
+Log    = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_log.txt
+Output = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_out.txt
+requirements = (UtsnameSysname == "Linux") && (OpSysName == "Ubuntu") && (OpSysMajorVer == 18)
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=19 --obj=ElectronSphere6np --opt=qgp_bo --loss=lcb --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=0 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=1 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=2 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=4 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=5 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=7 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=9 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=10 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=11 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=13 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=14 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=15 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=17 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue
+Arguments = --seed=18 --obj=ElectronSphere6np --opt=qgp_bo --loss=Neg_ei --proj_dim=2 --input_dim=12 --maxiter=300
+Queue

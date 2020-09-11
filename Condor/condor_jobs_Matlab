@@ -1,0 +1,485 @@
+Universe = vanilla
+Executable = condor_run_Matlab
+Error  = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_error.txt
+Log    = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_log.txt
+Output = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_out.txt
+Arguments = 2 'lcb' 1
+Queue
+Arguments = 2 'lcb' 2
+Queue
+Arguments = 2 'lcb' 3
+Queue
+Arguments = 2 'lcb' 4
+Queue
+Arguments = 2 'lcb' 5
+Queue
+Arguments = 2 'lcb' 6
+Queue
+Arguments = 2 'lcb' 7
+Queue
+Arguments = 2 'lcb' 8
+Queue
+Arguments = 2 'lcb' 9
+Queue
+Arguments = 2 'lcb' 10
+Queue
+Arguments = 2 'lcb' 11
+Queue
+Arguments = 2 'lcb' 12
+Queue
+Arguments = 2 'lcb' 13
+Queue
+Arguments = 2 'lcb' 14
+Queue
+Arguments = 2 'lcb' 15
+Queue
+Arguments = 2 'lcb' 16
+Queue
+Arguments = 2 'lcb' 17
+Queue
+Arguments = 2 'lcb' 18
+Queue
+Arguments = 2 'lcb' 19
+Queue
+Arguments = 2 'lcb' 20
+Queue
+Arguments = 3 'lcb' 1
+Queue
+Arguments = 3 'lcb' 2
+Queue
+Arguments = 3 'lcb' 3
+Queue
+Arguments = 3 'lcb' 4
+Queue
+Arguments = 3 'lcb' 5
+Queue
+Arguments = 3 'lcb' 6
+Queue
+Arguments = 3 'lcb' 7
+Queue
+Arguments = 3 'lcb' 8
+Queue
+Arguments = 3 'lcb' 9
+Queue
+Arguments = 3 'lcb' 10
+Queue
+Arguments = 3 'lcb' 11
+Queue
+Arguments = 3 'lcb' 12
+Queue
+Arguments = 3 'lcb' 13
+Queue
+Arguments = 3 'lcb' 14
+Queue
+Arguments = 3 'lcb' 15
+Queue
+Arguments = 3 'lcb' 16
+Queue
+Arguments = 3 'lcb' 17
+Queue
+Arguments = 3 'lcb' 18
+Queue
+Arguments = 3 'lcb' 19
+Queue
+Arguments = 3 'lcb' 20
+Queue
+Arguments = 4 'lcb' 1
+Queue
+Arguments = 4 'lcb' 2
+Queue
+Arguments = 4 'lcb' 3
+Queue
+Arguments = 4 'lcb' 4
+Queue
+Arguments = 4 'lcb' 5
+Queue
+Arguments = 4 'lcb' 6
+Queue
+Arguments = 4 'lcb' 7
+Queue
+Arguments = 4 'lcb' 8
+Queue
+Arguments = 4 'lcb' 9
+Queue
+Arguments = 4 'lcb' 10
+Queue
+Arguments = 4 'lcb' 11
+Queue
+Arguments = 4 'lcb' 12
+Queue
+Arguments = 4 'lcb' 13
+Queue
+Arguments = 4 'lcb' 14
+Queue
+Arguments = 4 'lcb' 15
+Queue
+Arguments = 4 'lcb' 16
+Queue
+Arguments = 4 'lcb' 17
+Queue
+Arguments = 4 'lcb' 18
+Queue
+Arguments = 4 'lcb' 19
+Queue
+Arguments = 4 'lcb' 20
+Queue
+Arguments = 6 'lcb' 1
+Queue
+Arguments = 6 'lcb' 2
+Queue
+Arguments = 6 'lcb' 3
+Queue
+Arguments = 6 'lcb' 4
+Queue
+Arguments = 6 'lcb' 5
+Queue
+Arguments = 6 'lcb' 6
+Queue
+Arguments = 6 'lcb' 7
+Queue
+Arguments = 6 'lcb' 8
+Queue
+Arguments = 6 'lcb' 9
+Queue
+Arguments = 6 'lcb' 10
+Queue
+Arguments = 6 'lcb' 11
+Queue
+Arguments = 6 'lcb' 12
+Queue
+Arguments = 6 'lcb' 13
+Queue
+Arguments = 6 'lcb' 14
+Queue
+Arguments = 6 'lcb' 15
+Queue
+Arguments = 6 'lcb' 16
+Queue
+Arguments = 6 'lcb' 17
+Queue
+Arguments = 6 'lcb' 18
+Queue
+Arguments = 6 'lcb' 19
+Queue
+Arguments = 6 'lcb' 20
+Queue
+Arguments = 2 'Neg_ei' 1
+Queue
+Arguments = 2 'Neg_ei' 2
+Queue
+Arguments = 2 'Neg_ei' 3
+Queue
+Arguments = 2 'Neg_ei' 4
+Queue
+Arguments = 2 'Neg_ei' 5
+Queue
+Arguments = 2 'Neg_ei' 6
+Queue
+Arguments = 2 'Neg_ei' 7
+Queue
+Arguments = 2 'Neg_ei' 8
+Queue
+Arguments = 2 'Neg_ei' 9
+Queue
+Arguments = 2 'Neg_ei' 10
+Queue
+Arguments = 2 'Neg_ei' 11
+Queue
+Arguments = 2 'Neg_ei' 12
+Queue
+Arguments = 2 'Neg_ei' 13
+Queue
+Arguments = 2 'Neg_ei' 14
+Queue
+Arguments = 2 'Neg_ei' 15
+Queue
+Arguments = 2 'Neg_ei' 16
+Queue
+Arguments = 2 'Neg_ei' 17
+Queue
+Arguments = 2 'Neg_ei' 18
+Queue
+Arguments = 2 'Neg_ei' 19
+Queue
+Arguments = 2 'Neg_ei' 20
+Queue
+Arguments = 3 'Neg_ei' 1
+Queue
+Arguments = 3 'Neg_ei' 2
+Queue
+Arguments = 3 'Neg_ei' 3
+Queue
+Arguments = 3 'Neg_ei' 4
+Queue
+Arguments = 3 'Neg_ei' 5
+Queue
+Arguments = 3 'Neg_ei' 6
+Queue
+Arguments = 3 'Neg_ei' 7
+Queue
+Arguments = 3 'Neg_ei' 8
+Queue
+Arguments = 3 'Neg_ei' 9
+Queue
+Arguments = 3 'Neg_ei' 10
+Queue
+Arguments = 3 'Neg_ei' 11
+Queue
+Arguments = 3 'Neg_ei' 12
+Queue
+Arguments = 3 'Neg_ei' 13
+Queue
+Arguments = 3 'Neg_ei' 14
+Queue
+Arguments = 3 'Neg_ei' 15
+Queue
+Arguments = 3 'Neg_ei' 16
+Queue
+Arguments = 3 'Neg_ei' 17
+Queue
+Arguments = 3 'Neg_ei' 18
+Queue
+Arguments = 3 'Neg_ei' 19
+Queue
+Arguments = 3 'Neg_ei' 20
+Queue
+Arguments = 4 'Neg_ei' 1
+Queue
+Arguments = 4 'Neg_ei' 2
+Queue
+Arguments = 4 'Neg_ei' 3
+Queue
+Arguments = 4 'Neg_ei' 4
+Queue
+Arguments = 4 'Neg_ei' 5
+Queue
+Arguments = 4 'Neg_ei' 6
+Queue
+Arguments = 4 'Neg_ei' 7
+Queue
+Arguments = 4 'Neg_ei' 8
+Queue
+Arguments = 4 'Neg_ei' 9
+Queue
+Arguments = 4 'Neg_ei' 10
+Queue
+Arguments = 4 'Neg_ei' 11
+Queue
+Arguments = 4 'Neg_ei' 12
+Queue
+Arguments = 4 'Neg_ei' 13
+Queue
+Arguments = 4 'Neg_ei' 14
+Queue
+Arguments = 4 'Neg_ei' 15
+Queue
+Arguments = 4 'Neg_ei' 16
+Queue
+Arguments = 4 'Neg_ei' 17
+Queue
+Arguments = 4 'Neg_ei' 18
+Queue
+Arguments = 4 'Neg_ei' 19
+Queue
+Arguments = 4 'Neg_ei' 20
+Queue
+Arguments = 6 'Neg_ei' 1
+Queue
+Arguments = 6 'Neg_ei' 2
+Queue
+Arguments = 6 'Neg_ei' 3
+Queue
+Arguments = 6 'Neg_ei' 4
+Queue
+Arguments = 6 'Neg_ei' 5
+Queue
+Arguments = 6 'Neg_ei' 6
+Queue
+Arguments = 6 'Neg_ei' 7
+Queue
+Arguments = 6 'Neg_ei' 8
+Queue
+Arguments = 6 'Neg_ei' 9
+Queue
+Arguments = 6 'Neg_ei' 10
+Queue
+Arguments = 6 'Neg_ei' 11
+Queue
+Arguments = 6 'Neg_ei' 12
+Queue
+Arguments = 6 'Neg_ei' 13
+Queue
+Arguments = 6 'Neg_ei' 14
+Queue
+Arguments = 6 'Neg_ei' 15
+Queue
+Arguments = 6 'Neg_ei' 16
+Queue
+Arguments = 6 'Neg_ei' 17
+Queue
+Arguments = 6 'Neg_ei' 18
+Queue
+Arguments = 6 'Neg_ei' 19
+Queue
+Arguments = 6 'Neg_ei' 20
+Queue
+Arguments = 2 'Neg_pi' 1
+Queue
+Arguments = 2 'Neg_pi' 2
+Queue
+Arguments = 2 'Neg_pi' 3
+Queue
+Arguments = 2 'Neg_pi' 4
+Queue
+Arguments = 2 'Neg_pi' 5
+Queue
+Arguments = 2 'Neg_pi' 6
+Queue
+Arguments = 2 'Neg_pi' 7
+Queue
+Arguments = 2 'Neg_pi' 8
+Queue
+Arguments = 2 'Neg_pi' 9
+Queue
+Arguments = 2 'Neg_pi' 10
+Queue
+Arguments = 2 'Neg_pi' 11
+Queue
+Arguments = 2 'Neg_pi' 12
+Queue
+Arguments = 2 'Neg_pi' 13
+Queue
+Arguments = 2 'Neg_pi' 14
+Queue
+Arguments = 2 'Neg_pi' 15
+Queue
+Arguments = 2 'Neg_pi' 16
+Queue
+Arguments = 2 'Neg_pi' 17
+Queue
+Arguments = 2 'Neg_pi' 18
+Queue
+Arguments = 2 'Neg_pi' 19
+Queue
+Arguments = 2 'Neg_pi' 20
+Queue
+Arguments = 3 'Neg_pi' 1
+Queue
+Arguments = 3 'Neg_pi' 2
+Queue
+Arguments = 3 'Neg_pi' 3
+Queue
+Arguments = 3 'Neg_pi' 4
+Queue
+Arguments = 3 'Neg_pi' 5
+Queue
+Arguments = 3 'Neg_pi' 6
+Queue
+Arguments = 3 'Neg_pi' 7
+Queue
+Arguments = 3 'Neg_pi' 8
+Queue
+Arguments = 3 'Neg_pi' 9
+Queue
+Arguments = 3 'Neg_pi' 10
+Queue
+Arguments = 3 'Neg_pi' 11
+Queue
+Arguments = 3 'Neg_pi' 12
+Queue
+Arguments = 3 'Neg_pi' 13
+Queue
+Arguments = 3 'Neg_pi' 14
+Queue
+Arguments = 3 'Neg_pi' 15
+Queue
+Arguments = 3 'Neg_pi' 16
+Queue
+Arguments = 3 'Neg_pi' 17
+Queue
+Arguments = 3 'Neg_pi' 18
+Queue
+Arguments = 3 'Neg_pi' 19
+Queue
+Arguments = 3 'Neg_pi' 20
+Queue
+Arguments = 4 'Neg_pi' 1
+Queue
+Arguments = 4 'Neg_pi' 2
+Queue
+Arguments = 4 'Neg_pi' 3
+Queue
+Arguments = 4 'Neg_pi' 4
+Queue
+Arguments = 4 'Neg_pi' 5
+Queue
+Arguments = 4 'Neg_pi' 6
+Queue
+Arguments = 4 'Neg_pi' 7
+Queue
+Arguments = 4 'Neg_pi' 8
+Queue
+Arguments = 4 'Neg_pi' 9
+Queue
+Arguments = 4 'Neg_pi' 10
+Queue
+Arguments = 4 'Neg_pi' 11
+Queue
+Arguments = 4 'Neg_pi' 12
+Queue
+Arguments = 4 'Neg_pi' 13
+Queue
+Arguments = 4 'Neg_pi' 14
+Queue
+Arguments = 4 'Neg_pi' 15
+Queue
+Arguments = 4 'Neg_pi' 16
+Queue
+Arguments = 4 'Neg_pi' 17
+Queue
+Arguments = 4 'Neg_pi' 18
+Queue
+Arguments = 4 'Neg_pi' 19
+Queue
+Arguments = 4 'Neg_pi' 20
+Queue
+Arguments = 6 'Neg_pi' 1
+Queue
+Arguments = 6 'Neg_pi' 2
+Queue
+Arguments = 6 'Neg_pi' 3
+Queue
+Arguments = 6 'Neg_pi' 4
+Queue
+Arguments = 6 'Neg_pi' 5
+Queue
+Arguments = 6 'Neg_pi' 6
+Queue
+Arguments = 6 'Neg_pi' 7
+Queue
+Arguments = 6 'Neg_pi' 8
+Queue
+Arguments = 6 'Neg_pi' 9
+Queue
+Arguments = 6 'Neg_pi' 10
+Queue
+Arguments = 6 'Neg_pi' 11
+Queue
+Arguments = 6 'Neg_pi' 12
+Queue
+Arguments = 6 'Neg_pi' 13
+Queue
+Arguments = 6 'Neg_pi' 14
+Queue
+Arguments = 6 'Neg_pi' 15
+Queue
+Arguments = 6 'Neg_pi' 16
+Queue
+Arguments = 6 'Neg_pi' 17
+Queue
+Arguments = 6 'Neg_pi' 18
+Queue
+Arguments = 6 'Neg_pi' 19
+Queue
+Arguments = 6 'Neg_pi' 20
+Queue

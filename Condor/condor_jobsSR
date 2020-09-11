@@ -1,0 +1,48 @@
+Universe = vanilla
+Executable = condor_runSR
+Error  = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_error.txt
+Log    = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_log.txt
+Output = /homes/rm4216/Desktop/ImperialCollege/Python/Github_qgp_bo/BayesOpt/Condor/$(Process)condor_run_out.txt
+requirements = (UtsnameSysname == "Linux") && (OpSysName == "Ubuntu") && (OpSysMajorVer == 18)
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
+Arguments = --seed=18 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_ei --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=5 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=Neg_pi --proj_dim=1 --input_dim=2 --maxiter=150 --part=18
+Queue
+Arguments = --seed=15 --obj=SwissRoll1D --opt=SRNNKL_bo --loss=lcb --proj_dim=1 --input_dim=2 --maxiter=150 --part=19
+Queue
